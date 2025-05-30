@@ -1,0 +1,8 @@
+C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\SittingMod\bin\Debug\SittingMod.dll
+C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\SittingMod\bin\Debug\SittingMod.pdb
+C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\SittingMod\bin\Debug\ScriptHookVDotNet3.dll
+C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\SittingMod\obj\Debug\SittingMod.csproj.AssemblyReference.cache
+C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\SittingMod\obj\Debug\SittingMod.csproj.CoreCompileInputs.cache
+C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\SittingMod\obj\Debug\SittingMod.csproj.CopyComplete
+C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\SittingMod\obj\Debug\SittingMod.dll
+C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\SittingMod\obj\Debug\SittingMod.pdb
