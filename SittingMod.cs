@@ -67,6 +67,7 @@ namespace SittingMod
       (Model)(-99500382),
       (Model)(-1190156817),
       (Model)(-425962029),
+      (Model)(2040839490),
 
 
 
@@ -86,7 +87,7 @@ namespace SittingMod
             Prop[] nearbyProps = World.GetNearbyProps(Game.Player.Character.Position, 25f);
             for (int index = 0; index < nearbyProps.Length; ++index)
             {
-                if (Main.SittingTaskScriptStatus == -1 && !Game.Player.Character.IsInVehicle() && Game.Player.WantedLevel == 0 && this.SeatModels.Contains(nearbyProps[index].Model) && (double)Game.Player.Character.Position.DistanceTo(nearbyProps[index].Position) <= 2.0)
+                if (Main.SittingTaskScriptStatus == -1 && !Game.Player.Character.IsInVehicle() && Game.Player.WantedLevel == 0 && this.SeatModels.Contains(nearbyProps[index].Model) && (double)Game.Player.Character.Position.DistanceTo(nearbyProps[index].Position) <= 1.0)
                 {
                     Utils.DisplayHelpTextThisFrame("Press ~INPUT_CONTEXT~ to sit down.");
                     if (Game.IsControlJustPressed(Control.Context))
@@ -170,8 +171,13 @@ namespace SittingMod
                             this.SitAttachOffsetY = .2f;
                             this.SitAttachOffsetX = 0.0f;
                             break;// stool kitchen
+                        case "2040839490":
+                            this.SitAttachOffsetZ = 0.0f;
+                            this.SitAttachOffsetY = 0.0f;
+                            this.SitAttachOffsetX = 0.0f;
+                            break;
                         default:
-                            this.SitAttachOffsetZ = 0.5f;
+                            this.SitAttachOffsetZ = 0.2f;
                             this.SitAttachOffsetY = 0.0f;
                             this.SitAttachOffsetX = 0.0f;
                        

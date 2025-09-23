@@ -6,3 +6,10 @@ C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\SittingMod\obj\D
 C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\SittingMod\obj\Debug\SittingMod.csproj.CopyComplete
 C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\SittingMod\obj\Debug\SittingMod.dll
 C:\Users\Chris-No Internet\source\repos\GTAV_CorrectProjectType\SittingMod\obj\Debug\SittingMod.pdb
+C:\Users\clope\OneDrive\Documents\GTA V Modding\repos\repos\GTAV_CorrectProjectType\SittingMod\bin\Debug\SittingMod.dll
+C:\Users\clope\OneDrive\Documents\GTA V Modding\repos\repos\GTAV_CorrectProjectType\SittingMod\bin\Debug\SittingMod.pdb
+C:\Users\clope\OneDrive\Documents\GTA V Modding\repos\repos\GTAV_CorrectProjectType\SittingMod\obj\Debug\SittingMod.csproj.AssemblyReference.cache
+C:\Users\clope\OneDrive\Documents\GTA V Modding\repos\repos\GTAV_CorrectProjectType\SittingMod\obj\Debug\SittingMod.csproj.CoreCompileInputs.cache
+C:\Users\clope\OneDrive\Documents\GTA V Modding\repos\repos\GTAV_CorrectProjectType\SittingMod\obj\Debug\SittingMod.csproj.Up2Date
+C:\Users\clope\OneDrive\Documents\GTA V Modding\repos\repos\GTAV_CorrectProjectType\SittingMod\obj\Debug\SittingMod.dll
+C:\Users\clope\OneDrive\Documents\GTA V Modding\repos\repos\GTAV_CorrectProjectType\SittingMod\obj\Debug\SittingMod.pdb
