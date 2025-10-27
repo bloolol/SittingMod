@@ -68,6 +68,7 @@ namespace SittingMod
       (Model)(-1190156817),
       (Model)(-425962029),
       (Model)(2040839490),
+      (Model)(1805980844)
 
 
 
@@ -84,10 +85,12 @@ namespace SittingMod
 
         private void OnTick(object sender, EventArgs e)
         {
+            if (Game.IsPaused)
+                return;
             Prop[] nearbyProps = World.GetNearbyProps(Game.Player.Character.Position, 25f);
             for (int index = 0; index < nearbyProps.Length; ++index)
             {
-                if (Main.SittingTaskScriptStatus == -1 && !Game.Player.Character.IsInVehicle() && Game.Player.WantedLevel == 0 && this.SeatModels.Contains(nearbyProps[index].Model) && (double)Game.Player.Character.Position.DistanceTo(nearbyProps[index].Position) <= 1.0)
+                if (Main.SittingTaskScriptStatus == -1 && !Game.Player.Character.IsInVehicle() && Game.Player.WantedLevel == 0 && this.SeatModels.Contains(nearbyProps[index].Model) && (double)Game.Player.Character.Position.DistanceTo(nearbyProps[index].Position) <= 1.4)
                 {
                     Utils.DisplayHelpTextThisFrame("Press ~INPUT_CONTEXT~ to sit down.");
                     if (Game.IsControlJustPressed(Control.Context))
